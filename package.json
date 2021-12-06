@@ -2,7 +2,7 @@
   "name": "starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
